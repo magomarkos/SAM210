@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		747A477119DB784500FB0913 /* sam-wand-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 747A477019DB784500FB0913 /* sam-wand-logo.png */; };
 		74C6586319D71F5E0028CE12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C6586219D71F5E0028CE12 /* AppDelegate.m */; };
 		74C6586519D71F5E0028CE12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C6586419D71F5E0028CE12 /* main.m */; };
 		74C6586819D71F5E0028CE12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C6586719D71F5E0028CE12 /* ViewController.m */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		747A477019DB784500FB0913 /* sam-wand-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sam-wand-logo.png"; sourceTree = "<group>"; };
 		74C6585C19D71F5E0028CE12 /* SAM 210.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SAM 210.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C6586019D71F5E0028CE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74C6586119D71F5E0028CE12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		74C6585E19D71F5E0028CE12 /* SAM 210 */ = {
 			isa = PBXGroup;
 			children = (
+				747A477019DB784500FB0913 /* sam-wand-logo.png */,
 				74C6586119D71F5E0028CE12 /* AppDelegate.h */,
 				74C6586219D71F5E0028CE12 /* AppDelegate.m */,
 				74C6586619D71F5E0028CE12 /* ViewController.h */,
@@ -199,6 +202,7 @@
 			files = (
 				74C6586A19D71F5E0028CE12 /* Images.xcassets in Resources */,
 				74C6586D19D71F5E0028CE12 /* Main.storyboard in Resources */,
+				747A477119DB784500FB0913 /* sam-wand-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				74C6587E19D71F5E0028CE12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74C6587F19D71F5E0028CE12 /* Build configuration list for PBXNativeTarget "SAM 210Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				74C6588119D71F5E0028CE12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
