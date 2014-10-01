@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		747A477019DB784500FB0913 /* sam-wand-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sam-wand-logo.png"; sourceTree = "<group>"; };
+		74B4494719DBCCB900EC7726 /* SAM 210.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SAM 210.entitlements"; sourceTree = "<group>"; };
 		74C6585C19D71F5E0028CE12 /* SAM 210.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SAM 210.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C6586019D71F5E0028CE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74C6586119D71F5E0028CE12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 		74C6585E19D71F5E0028CE12 /* SAM 210 */ = {
 			isa = PBXGroup;
 			children = (
+				74B4494719DBCCB900EC7726 /* SAM 210.entitlements */,
 				747A477019DB784500FB0913 /* sam-wand-logo.png */,
 				74C6586119D71F5E0028CE12 /* AppDelegate.h */,
 				74C6586219D71F5E0028CE12 /* AppDelegate.m */,
@@ -164,11 +166,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = Puchols;
+				ORGANIZATIONNAME = "Society Of American Magicians";
 				TargetAttributes = {
 					74C6585B19D71F5E0028CE12 = {
 						CreatedOnToolsVersion = 6.1;
 						DevelopmentTeam = 37LJNCGPGU;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 					74C6587119D71F5E0028CE12 = {
 						CreatedOnToolsVersion = 6.1;
@@ -337,10 +344,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "SAM 210/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -349,10 +359,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "SAM 210/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
